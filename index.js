@@ -12,7 +12,6 @@ client.on("ready", () => {
 })
 client.on("messageCreate", message => {
   console.log(message.content)
-//const response = random.nextInt(max - min + 1) + min
 const content = message.content.toLowerCase()
 const contentSplit = content.split(" ")
   if (content === "i hate philip" ) {
