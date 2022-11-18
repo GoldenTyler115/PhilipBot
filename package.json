@@ -27,6 +27,9 @@
     "util-deprecate": "^1.0.2",
     "ws": "^8.11.0"
   },
+  "engines": {
+    "node": ">=16 <17"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -40,4 +43,5 @@
     "url": "https://github.com/GoldenTyler115/PhilipBot/issues"
   },
   "homepage": "https://github.com/GoldenTyler115/PhilipBot#readme"
+
 }
